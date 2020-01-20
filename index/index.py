@@ -4,10 +4,10 @@
 # @Author  : Allen.XC.AI
 # @File    : index.py
 # from baidu.baiduHp import hello, add, index
-from baidu.baiduHp import *
+from baidu import *
 
 if __name__ == "__main__":
-    print(hello)
-    print(add(2, 3))
-    demo = index()
+    print(baidu1.hello)
+    print(baidu2.add(2, 3))
+    demo = baidu3.index()
     print(demo.add(3, 3))
